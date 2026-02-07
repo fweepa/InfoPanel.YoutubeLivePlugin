@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <WindowsSdkPackageVersion>10.0.19041.34</WindowsSdkPackageVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>InfoPanel.YouTubeLivePlugin</AssemblyName>
+    <RootNamespace>YouTubeLivePlugin</RootNamespace>
+    <UseWindowsForms>false</UseWindowsForms>
+    <UseWPF>false</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="InfoPanel.Plugins">
+      <HintPath>C:\Program Files (x86)\InfoPanel\InfoPanel.Plugins.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="config.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="PluginInfo.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <Target Name="CreateInfopanelPackage" AfterTargets="Build">
+    <PropertyGroup>
+      <_PackageDir>$(OutputPath)packaging\InfoPanel.YouTubeLivePlugin\</_PackageDir>
+      <_InfopanelPath>$(MSBuildProjectDirectory)\InfoPanel.YouTubeLivePlugin.infopanel</_InfopanelPath>
+    </PropertyGroup>
+    <MakeDir Directories="$(_PackageDir)" />
+    <Copy SourceFiles="$(OutputPath)InfoPanel.YouTubeLivePlugin.dll" DestinationFolder="$(_PackageDir)" />
+    <Copy SourceFiles="$(OutputPath)PluginInfo.ini" DestinationFolder="$(_PackageDir)" />
+    <Copy SourceFiles="$(OutputPath)config.ini" DestinationFolder="$(_PackageDir)" />
+    <ZipDirectory SourceDirectory="$(OutputPath)packaging" DestinationFile="$(_InfopanelPath)" Overwrite="true" />
+    <RemoveDir Directories="$(OutputPath)packaging" />
+    <Message Importance="high" Text="Created package: $(_InfopanelPath)" />
+  </Target>
+
+</Project>

@@ -1,0 +1,16 @@
+C:\users\black\youtubeliveplugin\bin\Debug\net8.0-windows10.0.19041.0\config.ini
+C:\users\black\youtubeliveplugin\bin\Debug\net8.0-windows10.0.19041.0\PluginInfo.ini
+C:\users\black\youtubeliveplugin\bin\Debug\net8.0-windows10.0.19041.0\YouTubeLivePlugin.deps.json
+C:\users\black\youtubeliveplugin\bin\Debug\net8.0-windows10.0.19041.0\YouTubeLivePlugin.dll
+C:\users\black\youtubeliveplugin\bin\Debug\net8.0-windows10.0.19041.0\YouTubeLivePlugin.pdb
+C:\users\black\youtubeliveplugin\bin\Debug\net8.0-windows10.0.19041.0\InfoPanel.Plugins.dll
+C:\users\black\youtubeliveplugin\obj\Debug\net8.0-windows10.0.19041.0\YouTubeLivePlugin.csproj.AssemblyReference.cache
+C:\users\black\youtubeliveplugin\obj\Debug\net8.0-windows10.0.19041.0\YouTubeLivePlugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\users\black\youtubeliveplugin\obj\Debug\net8.0-windows10.0.19041.0\YouTubeLivePlugin.AssemblyInfoInputs.cache
+C:\users\black\youtubeliveplugin\obj\Debug\net8.0-windows10.0.19041.0\YouTubeLivePlugin.AssemblyInfo.cs
+C:\users\black\youtubeliveplugin\obj\Debug\net8.0-windows10.0.19041.0\YouTubeLivePlugin.csproj.CoreCompileInputs.cache
+C:\users\black\youtubeliveplugin\obj\Debug\net8.0-windows10.0.19041.0\YouTubeL.BFEFC9BF.Up2Date
+C:\users\black\youtubeliveplugin\obj\Debug\net8.0-windows10.0.19041.0\YouTubeLivePlugin.dll
+C:\users\black\youtubeliveplugin\obj\Debug\net8.0-windows10.0.19041.0\refint\YouTubeLivePlugin.dll
+C:\users\black\youtubeliveplugin\obj\Debug\net8.0-windows10.0.19041.0\YouTubeLivePlugin.pdb
+C:\users\black\youtubeliveplugin\obj\Debug\net8.0-windows10.0.19041.0\ref\YouTubeLivePlugin.dll
