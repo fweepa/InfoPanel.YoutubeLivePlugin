@@ -58,11 +58,8 @@ Supported URL formats:
 
 To display the stream in your panel:
 
-1. Add an **Image** item to your display profile
-2. Set the image source to **URL** (or use **HttpImage** / "Image from sensor" if your InfoPanel version offers it)
-3. Set **Sensor Type** to **Plugin**
-4. Set **Plugin Sensor Id** to: `/youtube-live/youtube/stream-url`
-5. Adjust size and position as desired
+1. Add the "Stream URL" sensor as an HTTP Image
+2. Adjust size and position as desired
 
 The stream will play as video inside the panel. HLS URLs are cached for 30 minutes to avoid excessive yt-dlp calls.
 
