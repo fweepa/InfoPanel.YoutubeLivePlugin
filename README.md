@@ -17,23 +17,15 @@ This plugin extracts the HLS stream URL from a YouTube Live Stream link and prov
 
 ### Option A: Import via InfoPanel (recommended)
 
-1. Run the pack script to create the installable package:
-   ```powershell
-   cd C:\Users\black\YouTubeLivePlugin
-   .\pack.ps1
-   ```
-2. In InfoPanel, go to **Plugins** and use **Add Plugin from ZIP**
-3. Select `InfoPanel.YouTubeLivePlugin.zip` (InfoPanel only processes `.zip` files matching `InfoPanel.*.zip`)
+1. Download the .zip file and import into InfoPanel
 
 ### Option B: Manual copy
 
-1. Build the plugin project (Release mode recommended)
-2. Copy the output to InfoPanel's plugins folder:
-   - **User plugins:** `%APPDATA%\Roaming\InfoPanel\Plugins\YouTubeLivePlugin\`
-   - **Development:** `[InfoPanel Directory]\Plugins\YouTubeLivePlugin\`
+1. Download and unzip the YouTubeLivePlugin.zip file
 
-3. Copy these files:
-   - `YouTubeLivePlugin.dll`
+3. Copy these files and move to your %PROGRAMDATA%\InfoPanel\Plugins\ directory:
+   - `InfoPanel.YouTubeLivePlugin.dll`
+   - 'InfoPanel.Plugins.dll'
    - `PluginInfo.ini`
    - `config.ini`
 

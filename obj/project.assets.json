@@ -8,7 +8,7 @@
     "net8.0-windows10.0.19041": []
   },
   "packageFolders": {
-    "C:\\Users\\black\\.nuget\\packages\\": {}
+    "C:\\Users\\black\\AppData\\Local\\Temp\\cursor-sandbox-cache\\ce7965ff1e0c32b3cf8f7b24fa01bcef\\nuget": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,7 +16,7 @@
       "projectUniqueName": "C:\\Users\\black\\YouTubeLivePlugin\\YouTubeLivePlugin.csproj",
       "projectName": "InfoPanel.YouTubeLivePlugin",
       "projectPath": "C:\\Users\\black\\YouTubeLivePlugin\\YouTubeLivePlugin.csproj",
-      "packagesPath": "C:\\Users\\black\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\black\\AppData\\Local\\Temp\\cursor-sandbox-cache\\ce7965ff1e0c32b3cf8f7b24fa01bcef\\nuget",
       "outputPath": "C:\\Users\\black\\YouTubeLivePlugin\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
@@ -76,5 +76,13 @@
         "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.Windows.SDK.NET.Ref"
+    }
+  ]
 }
