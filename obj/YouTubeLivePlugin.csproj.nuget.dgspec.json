@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\black\\YouTubeLivePlugin\\YouTubeLivePlugin.csproj": {}
+    "D:\\Documents\\.cursor-projects\\YouTubeLivePlugin\\YouTubeLivePlugin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\black\\YouTubeLivePlugin\\YouTubeLivePlugin.csproj": {
+    "D:\\Documents\\.cursor-projects\\YouTubeLivePlugin\\YouTubeLivePlugin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\black\\YouTubeLivePlugin\\YouTubeLivePlugin.csproj",
+        "projectUniqueName": "D:\\Documents\\.cursor-projects\\YouTubeLivePlugin\\YouTubeLivePlugin.csproj",
         "projectName": "InfoPanel.YouTubeLivePlugin",
-        "projectPath": "C:\\Users\\black\\YouTubeLivePlugin\\YouTubeLivePlugin.csproj",
-        "packagesPath": "C:\\Users\\black\\AppData\\Local\\Temp\\cursor-sandbox-cache\\ce7965ff1e0c32b3cf8f7b24fa01bcef\\nuget",
-        "outputPath": "C:\\Users\\black\\YouTubeLivePlugin\\obj\\",
+        "projectPath": "D:\\Documents\\.cursor-projects\\YouTubeLivePlugin\\YouTubeLivePlugin.csproj",
+        "packagesPath": "C:\\Users\\black\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\.cursor-projects\\YouTubeLivePlugin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\black\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.419/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -22,7 +22,7 @@ This plugin extracts the HLS stream URL from a YouTube Live Stream link and prov
 ### Option B: Manual copy
 
 1. Download and unzip the `InfoPanel.YouTubeLivePlugin.zip` file
-2. Copy the **entire** `InfoPanel.YouTubeLivePlugin` folder to one of:
+2. Copy the **entire** `youtube-live-plugin` folder to one of:
    - **User plugins:** `%APPDATA%\Roaming\InfoPanel\Plugins\`
    - **Development:** `[InfoPanel Install Directory]\Plugins\`
 3. The folder must stay intact — InfoPanel loads plugins from subfolders. Ensure these files are inside the folder:

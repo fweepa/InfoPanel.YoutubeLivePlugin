@@ -28,7 +28,8 @@
 
   <Target Name="CreateInfopanelPackage" AfterTargets="Build">
     <PropertyGroup>
-      <_PackageDir>$(OutputPath)packaging\InfoPanel.YouTubeLivePlugin\</_PackageDir>
+      <!-- Keep the assembly name stable, but ensure the installed plugin folder matches the GitHub repoName -->
+      <_PackageDir>$(OutputPath)packaging\youtube-live-plugin\</_PackageDir>
       <_InfopanelPath>$(MSBuildProjectDirectory)\InfoPanel.YouTubeLivePlugin.infopanel</_InfopanelPath>
     </PropertyGroup>
     <MakeDir Directories="$(_PackageDir)" />

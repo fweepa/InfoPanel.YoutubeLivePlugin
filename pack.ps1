@@ -20,8 +20,10 @@ if (Test-Path $releaseDir) {
     $outDir = $releaseDir
 }
 
-# Create package structure (InfoPanel expects InfoPanel.PluginName/ folder inside zip)
-$packageDir = "packaging\InfoPanel.YouTubeLivePlugin"
+# Create package structure (InfoPanel expects the marketplace-matching folder inside zip)
+# The desktop app matches marketplace `repoName` (repo portion after `/`) against the installed plugin folder name.
+# This plugin's GitHub repo is `fweepa/youtube-live-plugin`, so the installed folder must be `youtube-live-plugin`.
+$packageDir = "packaging\youtube-live-plugin"
 New-Item -ItemType Directory -Force -Path $packageDir | Out-Null
 
 Copy-Item "$outDir\InfoPanel.YouTubeLivePlugin.dll" -Destination $packageDir
@@ -32,7 +34,7 @@ Copy-Item "$outDir\config.ini" -Destination $packageDir
 $zipPath = "InfoPanel.YouTubeLivePlugin.zip"
 if (Test-Path $zipPath) { Remove-Item $zipPath }
 
-Compress-Archive -Path "packaging\InfoPanel.YouTubeLivePlugin" -DestinationPath $zipPath -Force
+Compress-Archive -Path $packageDir -DestinationPath $zipPath -Force
 
 # Cleanup
 Remove-Item -Recurse -Force "packaging"

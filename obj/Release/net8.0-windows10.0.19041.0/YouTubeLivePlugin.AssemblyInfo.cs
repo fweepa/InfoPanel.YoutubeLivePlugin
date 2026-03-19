@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InfoPanel.YouTubeLivePlugin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+991c5d5f2c29b70d1d3b9da7b07467fc14422a38")]
 [assembly: System.Reflection.AssemblyProductAttribute("InfoPanel.YouTubeLivePlugin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InfoPanel.YouTubeLivePlugin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
